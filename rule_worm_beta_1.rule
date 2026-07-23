@@ -1,0 +1,5 @@
+Name=Worm.Generic.Beta
+Description=Detects a generic dummy worm signature used for scanner testing. Requires three separate marker strings to all be present in the scanned file.
+STRING:MARKER_BETA_1
+STRING:MARKER_BETA_2
+STRING:MARKER_BETA_3

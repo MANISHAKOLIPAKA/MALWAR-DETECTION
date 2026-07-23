@@ -1,0 +1,4 @@
+Name=Trojan.Generic.Alpha
+Description=Detects a generic dummy trojan signature used for scanner testing. Matches when the file contains a specific marker string alongside a versioned identifier pattern.
+STRING:MARKER_ALPHA_1234
+REGEX:ID-[A-Z]{2}[0-9]{4}
